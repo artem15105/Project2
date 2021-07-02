@@ -15,11 +15,11 @@ C:/Users/Artem/Desktop/git/Actual/Project2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53833
+55148
 Successfully changed project path to: C:/Users/Artem/Desktop/git/Actual/Project2
 C:/Users/Artem/Desktop/git/Actual/Project2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -36,44 +36,350 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002147 seconds.
+Registered in 0.002031 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.432 seconds
+- Completed reload, in  2.700 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005138 seconds.
+Registered in 0.004325 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.888 seconds
+- Completed reload, in  1.645 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'LightingEffects/Car/Specular_Cubemap_Color': fallback shader 'MobileSpecular' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1655 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.6 MB.
-System memory in use after: 111.4 MB.
+System memory in use before: 92.4 MB.
+System memory in use after: 92.3 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2115.
-Total: 2.973900 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.086700 ms MarkObjects: 2.204000 ms  DeleteObjects: 0.451600 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 2.783900 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.069400 ms MarkObjects: 2.216800 ms  DeleteObjects: 0.258200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Cube.prefab
-  artifactKey: Guid(0c0fa289dbf6fc445b7eca38417b87ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cube.prefab using Guid(0c0fa289dbf6fc445b7eca38417b87ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345584dd6a4d96eb5748e7341b0561df') in 0.173829 seconds
-  Import took 0.179923 seconds .
+  path: Assets/Models/Level1/Snow mountain tracks/terrain.asset
+  artifactKey: Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/Snow mountain tracks/terrain.asset using Guid(d216ab1bb2f42e44bb0c77a040f8eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Tree prefab at index 0 is missing.
 
+ -> (artifact id: 'd13775ec22193829b79b7b700564c776') in 0.156923 seconds
+  Import took 0.162732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Models/Game
+  artifactKey: Guid(cda998967dfb8e7468fefb0a223dd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game using Guid(cda998967dfb8e7468fefb0a223dd063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36994eef9efde6c5b5398935d8b920f2') in 0.011700 seconds
+  Import took 0.016718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Models/Level1/AI Control Variant.prefab
+  artifactKey: Guid(a89ec5588cc557144a00918a5f53db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/AI Control Variant.prefab using Guid(a89ec5588cc557144a00918a5f53db49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58feb9097c8779c447d1b11c1b68b616') in 0.114535 seconds
+  Import took 0.122340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Models/Level1/Game UI.prefab
+  artifactKey: Guid(f900ebcfab0617046826c1c563533a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/Game UI.prefab using Guid(f900ebcfab0617046826c1c563533a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3942545ef6054042ac835ba1e1b63646') in 0.022589 seconds
+  Import took 0.027456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Models/Level1/AI Control.prefab
+  artifactKey: Guid(c7276aa06e848b54d974066caa7f9ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/AI Control.prefab using Guid(c7276aa06e848b54d974066caa7f9ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6a5e42b949f9dcde2162459482838') in 0.067954 seconds
+  Import took 0.080989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Models
+  artifactKey: Guid(51deb3d6805008a46801d6187ca35278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(51deb3d6805008a46801d6187ca35278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6263751e5d28b715a71b5520fefde6') in 0.014639 seconds
+  Import took 0.019718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Models/Level1/AI Control.prefab
+  artifactKey: Guid(c7276aa06e848b54d974066caa7f9ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/AI Control.prefab using Guid(c7276aa06e848b54d974066caa7f9ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6a5e42b949f9dcde2162459482838') in 0.051555 seconds
+  Import took 0.062785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Models/Level1/Snow mountain tracks
+  artifactKey: Guid(f26c5d588e730dc449bf6d5fdb61c713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1/Snow mountain tracks using Guid(f26c5d588e730dc449bf6d5fdb61c713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbef042e4f3350bc4dc700364c2e71a') in 0.013298 seconds
+  Import took 0.017612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Models/Level1
+  artifactKey: Guid(7a71abae208664d4abfcd3a137a17851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Level1 using Guid(7a71abae208664d4abfcd3a137a17851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5618a7de97987db6cc572e36e7a069') in 0.014124 seconds
+  Import took 0.019829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.560461 seconds.
+  path: Assets/Models/Game/Tourung Car Pack
+  artifactKey: Guid(ecb0016e644ecda44984d4d9e9497d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack using Guid(ecb0016e644ecda44984d4d9e9497d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165f35f4409ff7ed47f0b1cd930b0498') in 0.008507 seconds
+  Import took 0.017270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968844 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Prefab
+  artifactKey: Guid(c7dcf63156e1ac74c910fe6fb3710a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Prefab using Guid(c7dcf63156e1ac74c910fe6fb3710a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23e73f4d5ab3b5ce8e12225948b2e12') in 0.012182 seconds
+  Import took 0.016576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072155 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Prefab/Chev666.prefab
+  artifactKey: Guid(7b367dccc659de64b8c4d882ca0505fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Prefab/Chev666.prefab using Guid(7b367dccc659de64b8c4d882ca0505fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a58c6c9c1163274537565d66b5de3c') in 0.985650 seconds
+  Import took 0.991896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Prefab/Floor.prefab
+  artifactKey: Guid(661d50483d36e3140a06c8ce577c50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Prefab/Floor.prefab using Guid(661d50483d36e3140a06c8ce577c50b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ae4dabea9ecf2d09a744afdfbd2e93') in 0.033044 seconds
+  Import took 0.037323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Prefab/Tires.prefab
+  artifactKey: Guid(650da820b44a0cd409844c0e08448327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Prefab/Tires.prefab using Guid(650da820b44a0cd409844c0e08448327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480e72d62f800c5cee3eaf3aa9a45320') in 0.094480 seconds
+  Import took 0.099620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.192495 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Scenes
+  artifactKey: Guid(dff171252adde614cba68c15ec03e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Scenes using Guid(dff171252adde614cba68c15ec03e558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d8b3e455c54830011448b718af6784') in 0.011373 seconds
+  Import took 0.016535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497566 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures
+  artifactKey: Guid(a60b65cebf8ea01448c73c8050bf0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures using Guid(a60b65cebf8ea01448c73c8050bf0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48574095796c1a959fc9f89404b50f86') in 0.012208 seconds
+  Import took 0.017343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277666 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common
+  artifactKey: Guid(73b6c0533874df341b31d5a257476c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common using Guid(73b6c0533874df341b31d5a257476c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9109c15b5192cd1f4d4a183f74e60c8b') in 0.012991 seconds
+  Import took 0.018936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067091 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/bkcaliper.tga
+  artifactKey: Guid(e0339c30322c76e4a8c3528ae8fa6386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/bkcaliper.tga using Guid(e0339c30322c76e4a8c3528ae8fa6386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25947e89d42f64a69d2e4f89fe96e60') in 0.029698 seconds
+  Import took 0.033967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/Brakedisc.tga
+  artifactKey: Guid(840f1effe0f77bc4a97ef5b3c4b3d229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/Brakedisc.tga using Guid(840f1effe0f77bc4a97ef5b3c4b3d229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a60beaee9c5bce4bc60157f6073e7ed') in 0.016706 seconds
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH.tga
+  artifactKey: Guid(2e9503035b53de04e98670ffcc3c0f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH.tga using Guid(2e9503035b53de04e98670ffcc3c0f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594fd995bba6103d748375183b9a47bb') in 0.026192 seconds
+  Import took 0.030683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/Engine.tga
+  artifactKey: Guid(46b26b8eb34144a4391ff02436073fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/Engine.tga using Guid(46b26b8eb34144a4391ff02436073fa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feffca89be87d6b66cb6451e8d8fd389') in 0.050463 seconds
+  Import took 0.054161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/TREAD_B.tga
+  artifactKey: Guid(a34f0da026a1c0145a56e8147fa02eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/TREAD_B.tga using Guid(a34f0da026a1c0145a56e8147fa02eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625566d6ab81e1f54871161ef032f679') in 0.024398 seconds
+  Import took 0.031845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/Wood.tga
+  artifactKey: Guid(c73c6ba7727717b449733b6d99203767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/Wood.tga using Guid(c73c6ba7727717b449733b6d99203767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13bfb9107596ba6e1438b2528c8a7c7') in 0.031709 seconds
+  Import took 0.041524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/naonis.tga
+  artifactKey: Guid(b4c5efc82e102cc45b4896c4a4b9a5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/naonis.tga using Guid(b4c5efc82e102cc45b4896c4a4b9a5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c77a45a5dc9f2b69ce17e727b414ec') in 0.039534 seconds
+  Import took 0.048776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/Seat.tga
+  artifactKey: Guid(91f8140fbd6ac904b8cd8d0782f756cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/Seat.tga using Guid(91f8140fbd6ac904b8cd8d0782f756cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f4dad289d85e4e7adb2e69557d96c3') in 0.035252 seconds
+  Import took 0.040078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH_S.tga
+  artifactKey: Guid(9b16c6694b344c048a78076966a601a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH_S.tga using Guid(9b16c6694b344c048a78076966a601a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320c894b66422613ae0d5c68a3bcf3ca') in 0.024111 seconds
+  Import took 0.029821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/SIDEWALL.tga
+  artifactKey: Guid(cb4bdc43f176c8d45b99a5a42367896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/SIDEWALL.tga using Guid(cb4bdc43f176c8d45b99a5a42367896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d12dcdea630bd6369e73a62a3e3405') in 0.043807 seconds
+  Import took 0.049113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/RIMS.tga
+  artifactKey: Guid(0083334c9ef072f4490a547aebfcfc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/RIMS.tga using Guid(0083334c9ef072f4490a547aebfcfc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88afa73828ef7801ae385e31eae605a2') in 0.045981 seconds
+  Import took 0.050639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH_B.tga
+  artifactKey: Guid(24ad3a8db56494f4492c5b1069b9ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/DASH_B.tga using Guid(24ad3a8db56494f4492c5b1069b9ef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189a8cf6746cd9808e865a86e126f758') in 0.026874 seconds
+  Import took 0.031559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Textures/Common/TREAD.tga
+  artifactKey: Guid(66f587e5bb5dd3544935d074abc21156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Textures/Common/TREAD.tga using Guid(66f587e5bb5dd3544935d074abc21156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5a124da3d2135327d025aa532e4eec') in 0.019430 seconds
+  Import took 0.028155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942742 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Materials
+  artifactKey: Guid(4121e42f9181c6645b250edf77703c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Materials using Guid(4121e42f9181c6645b250edf77703c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4126c747c351b697952b5f168b41d63a') in 0.022787 seconds
+  Import took 0.039622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003344 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Materials
+  artifactKey: Guid(4121e42f9181c6645b250edf77703c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Materials using Guid(4121e42f9181c6645b250edf77703c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4126c747c351b697952b5f168b41d63a') in 0.003878 seconds
+  Import took 0.013623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.161310 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Meshes
+  artifactKey: Guid(20287fdf7ae3ac54bb4d2480849e0f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Meshes using Guid(20287fdf7ae3ac54bb4d2480849e0f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3109367e9c77849e7dfeb1c09eb5d0') in 0.008405 seconds
+  Import took 0.013689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.398245 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Meshes/Chev.FBX
+  artifactKey: Guid(8dcf477a4933f764e869d8a1a9b0f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Meshes/Chev.FBX using Guid(8dcf477a4933f764e869d8a1a9b0f6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb43976ab94afca645d3e15ca17de82') in 0.414997 seconds
+  Import took 0.421284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Meshes/Floor.FBX
+  artifactKey: Guid(5029c74dd9b742346a0a03352111adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Meshes/Floor.FBX using Guid(5029c74dd9b742346a0a03352111adf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8480fe016e15b3ecad06f72f158739') in 0.073974 seconds
+  Import took 0.077484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Models/Game/Tourung Car Pack/Meshes/Tires.FBX
+  artifactKey: Guid(480648689bcacb1429f245e93f814b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Game/Tourung Car Pack/Meshes/Tires.FBX using Guid(480648689bcacb1429f245e93f814b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7db61cb4785ec5523a48e6e401ada0') in 0.221505 seconds
+  Import took 0.228901 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.648 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'LightingEffects/Car/Specular_Cubemap_Color': fallback shader 'MobileSpecular' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2137.
+Total: 4.515200 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.071000 ms MarkObjects: 2.587200 ms  DeleteObjects: 1.645600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

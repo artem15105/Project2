@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB6D6EAD-D707-AE1A-EEFC-48FC25D04B1A}</ProjectGuid>
+    <ProjectGuid>{1D45277B-A47E-F56E-AB7D-9CA29A1739D3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\FormatSecondsScript.cs" />
     <Compile Include="Assets\Script\Menu\Characteristics.cs" />
+    <Compile Include="Assets\Script\Game\AddMoney.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\MainMenu.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AINode.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\VehicleControl.cs" />
@@ -83,7 +84,6 @@
     <Compile Include="Assets\Script\Extreme Drift\Other\Skidmarks\Skidmarks Essentials\Skidmarks.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\VehicleCamera.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIControl.cs" />
-    <Compile Include="Assets\Script\Game\AddMoney.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Specular_Normal.shader" />
@@ -722,7 +722,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{A639C8D1-4DAF-7F1E-8B81-7D5DC6C6A199}</Project>
+      <Project>{957D392F-9515-D4BF-9A65-492B0662648F}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

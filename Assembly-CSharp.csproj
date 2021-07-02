@@ -84,6 +84,7 @@
     <Compile Include="Assets\Script\Extreme Drift\Other\Skidmarks\Skidmarks Essentials\Skidmarks.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\VehicleCamera.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIControl.cs" />
+    <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Specular_Normal.shader" />

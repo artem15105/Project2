@@ -702,7 +702,7 @@ public class MainMenu : MonoBehaviour
         }
 
 
-#elif UNITY_ANDROID||UNITY_IOS
+ /*#elif UNITY_ANDROID||UNITY_IOS
 
 
 
@@ -712,8 +712,8 @@ public class MainMenu : MonoBehaviour
             {
                 case TouchPhase.Moved:
                     x = Mathf.Lerp(x, Mathf.Clamp(Input.GetTouch(0).deltaPosition.x, -2, 2) * cameraRotateSpeed, Time.deltaTime*3.0f);
-                    Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView, 50, 60);
-                    Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 50, Time.deltaTime);
+                    Camera.fieldOfView = Mathf.Clamp(Camera.fieldOfView, 50, 60);
+                    Camera.fieldOfView = Mathf.Lerp(Camera.fieldOfView, 50, Time.deltaTime);
                     break;
             }
 
@@ -722,7 +722,7 @@ public class MainMenu : MonoBehaviour
             x = Mathf.Lerp(x, cameraRotateSpeed * 0.02f, Time.deltaTime*3.0f);
             Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 60, Time.deltaTime);
         }
-
+ */
 #endif
 
         transform.RotateAround(vehicleRoot.position, Vector3.up, x);

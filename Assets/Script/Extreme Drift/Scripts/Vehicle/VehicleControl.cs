@@ -337,9 +337,11 @@ public class VehicleControl : MonoBehaviour
         if (currentGear < carSetting.gears.Length - 1)
         {
 
-             if (!carSounds.switchGear.isPlaying)
-            carSounds.switchGear.GetComponent<AudioSource>().Play();
-
+            if (!carSounds.switchGear.isPlaying)
+            {
+               
+                carSounds.switchGear.GetComponent<AudioSource>().Play();
+            }
             carParticles.shiftParticle1.emissionRate = 1000;
             carParticles.shiftParticle2.emissionRate = 1000;
 
@@ -362,7 +364,7 @@ public class VehicleControl : MonoBehaviour
             }
 
             shiftDelay = now + 1.0f;
-            shiftTime = 1.5f;
+            shiftTime = 1.5f; 
         }
     }
 
@@ -377,7 +379,11 @@ public class VehicleControl : MonoBehaviour
         {
 
              if (!carSounds.switchGear.isPlaying)
-            carSounds.switchGear.GetComponent<AudioSource>().Play();
+            {
+                Debug.Log("Test1");
+                carSounds.switchGear.GetComponent<AudioSource>().Play();
+            }
+            
 
             if (!carSetting.automaticGear)
             {

@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: c6e0767b1f8c34890ac245217f4b9731
 TextureImporter:
+<<<<<<< HEAD
   fileIDToRecycleName: {}
   serializedVersion: 4
   mipmaps:
@@ -8,6 +9,14 @@ TextureImporter:
     enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
+=======
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 2
@@ -15,6 +24,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
+<<<<<<< HEAD
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
@@ -23,10 +33,19 @@ TextureImporter:
   cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
+=======
+    heightScale: 0.250000
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  textureFormat: 10
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   maxTextureSize: 512
   textureSettings:
     filterMode: 1
     aniso: 1
+<<<<<<< HEAD
     mipBias: 0
     wrapMode: 0
   nPOTScale: 1
@@ -88,3 +107,11 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+    mipBias: 0.000000
+    wrapMode: 0
+  nPOTScale: 0
+  lightmap: 0
+  textureType: -1
+  buildTargetSettings: []
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac

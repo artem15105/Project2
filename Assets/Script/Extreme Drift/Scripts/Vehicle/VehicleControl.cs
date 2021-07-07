@@ -337,9 +337,17 @@ public class VehicleControl : MonoBehaviour
         if (currentGear < carSetting.gears.Length - 1)
         {
 
+<<<<<<< HEAD
              if (!carSounds.switchGear.isPlaying)
             carSounds.switchGear.GetComponent<AudioSource>().Play();
 
+=======
+            if (!carSounds.switchGear.isPlaying)
+            {
+               
+                carSounds.switchGear.GetComponent<AudioSource>().Play();
+            }
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
             carParticles.shiftParticle1.emissionRate = 1000;
             carParticles.shiftParticle2.emissionRate = 1000;
 
@@ -362,7 +370,11 @@ public class VehicleControl : MonoBehaviour
             }
 
             shiftDelay = now + 1.0f;
+<<<<<<< HEAD
             shiftTime = 1.5f;
+=======
+            shiftTime = 1.5f; 
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
         }
     }
 
@@ -377,7 +389,15 @@ public class VehicleControl : MonoBehaviour
         {
 
              if (!carSounds.switchGear.isPlaying)
+<<<<<<< HEAD
             carSounds.switchGear.GetComponent<AudioSource>().Play();
+=======
+            {
+                Debug.Log("Test1");
+                carSounds.switchGear.GetComponent<AudioSource>().Play();
+            }
+            
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 
             if (!carSetting.automaticGear)
             {
@@ -409,11 +429,19 @@ public class VehicleControl : MonoBehaviour
         }
 
 
+<<<<<<< HEAD
 #if UNITY_ANDROID||UNITY_IOS
+=======
+/*#if UNITY_ANDROID||UNITY_IOS
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 
         if (PlayerPrefs.GetInt("VibrationActive") == 0)
             Handheld.Vibrate();
 #endif
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     }
 
 

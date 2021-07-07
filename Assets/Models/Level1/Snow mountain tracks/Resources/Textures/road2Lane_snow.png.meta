@@ -1,9 +1,15 @@
 fileFormatVersion: 2
 guid: 1fb995bdef7024c47b67d5e57787afc2
 TextureImporter:
+<<<<<<< HEAD
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 5
+=======
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -21,9 +27,12 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+<<<<<<< HEAD
+=======
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,12 +41,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+=======
     filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 0
     wrapV: 0
     wrapW: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
@@ -55,6 +73,13 @@ TextureImporter:
   textureType: 0
   textureShape: 1
   singleChannelComponent: 0
+<<<<<<< HEAD
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+=======
   flipbookRows: 1
   flipbookColumns: 1
   maxTextureSizeSet: 0
@@ -64,6 +89,7 @@ TextureImporter:
   applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,6 +100,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+<<<<<<< HEAD
+=======
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
@@ -99,6 +127,7 @@ TextureImporter:
     overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -106,15 +135,22 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 
+<<<<<<< HEAD
+=======
     internalID: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     vertices: []
     indices: 
     edges: []
     weights: []
+<<<<<<< HEAD
+  spritePackingTag: 
+=======
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
+>>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   userData: 
   assetBundleName: 
   assetBundleVariant: 

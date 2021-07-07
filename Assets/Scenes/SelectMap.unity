@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -127,8 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!224 &178650980 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9019547681341448233, guid: c7d0daff3ab01e14f8fe863d75b52fd4,
@@ -645,7 +639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 --- !u!1 &1367838651
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,8 +722,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &1572415655
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,7 +856,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916779571}
   m_CullTransparentMesh: 1
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 --- !u!1 &2044525098
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,8 +949,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
-=======
 --- !u!1001 &9019547681251123021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1022,12 +1010,12 @@ PrefabInstance:
         type: 3}
       propertyPath: imageMap2
       value: 
-      objectReference: {fileID: 2800000, guid: c36f6c9f5ce9ed347848d4fb4f3d52ab, type: 3}
+      objectReference: {fileID: 2800000, guid: 021f8fa79739ca84ab68ff73bbefbda0, type: 3}
     - target: {fileID: 1818699448873618385, guid: c7d0daff3ab01e14f8fe863d75b52fd4,
         type: 3}
       propertyPath: imageMap3
       value: 
-      objectReference: {fileID: 2800000, guid: 021f8fa79739ca84ab68ff73bbefbda0, type: 3}
+      objectReference: {fileID: 2800000, guid: c36f6c9f5ce9ed347848d4fb4f3d52ab, type: 3}
     - target: {fileID: 9019547680951970921, guid: c7d0daff3ab01e14f8fe863d75b52fd4,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1300,4 +1288,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7d0daff3ab01e14f8fe863d75b52fd4, type: 3}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac

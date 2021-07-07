@@ -1,7 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
-=======
 --- !u!1 &813450944431087811
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +127,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 --- !u!1 &1290168009118523693
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,11 +168,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-<<<<<<< HEAD
-  m_audioClip: {fileID: 8300000, guid: 09088065c6a0c4b4cac6f30ed7ed0e4d, type: 3}
-=======
   m_audioClip: {fileID: 8300000, guid: ec6858dbe984e3646af33a59d891ccf0, type: 3}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -261,8 +254,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &3861992541591574287
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +290,6 @@ Transform:
   m_Father: {fileID: 9096531765710682697}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 --- !u!1 &4209095326912806459
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,11 +383,7 @@ Transform:
   m_Father: {fileID: 9096259754754365383}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!1 &7308137148451772402
-=======
 --- !u!1 &6240582463910513436
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -405,47 +391,21 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 3801277928973277786}
-  - component: {fileID: 128472576738887441}
-  m_Layer: 0
-  m_Name: body
-=======
   - component: {fileID: 8324946846764546770}
   - component: {fileID: 4177171015648609568}
   m_Layer: 1
   m_Name: Crash
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &3801277928973277786
-=======
 --- !u!4 &8324946846764546770
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7308137148451772402}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.115, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9088866853106170871}
-  - {fileID: 9088968228799671035}
-  - {fileID: 9096255386203707891}
-  m_Father: {fileID: 9096531765710682697}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &128472576738887441
-BoxCollider:
-=======
   m_GameObject: {fileID: 6240582463910513436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -456,20 +416,10 @@ BoxCollider:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &4177171015648609568
 AudioSource:
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7308137148451772402}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1.7266831, y: 0.8325343, z: 4.025446}
-  m_Center: {x: 0.00072488794, y: 0.6547807, z: -0.1575425}
-=======
   m_GameObject: {fileID: 6240582463910513436}
   m_Enabled: 1
   serializedVersion: 4
@@ -1117,7 +1067,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
 --- !u!1 &8947421082790662912
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,11 +6046,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9093637831740644834}
   m_LocalRotation: {x: -1.110223e-16, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0, y: 1.013, z: -3.624}
-=======
   m_LocalPosition: {x: 0, y: 1.013, z: -3.886}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9093637831779650865}
@@ -11418,11 +11363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9093637833183646190}
   m_LocalRotation: {x: -1.110223e-16, y: 0, z: 0, w: 1}
-<<<<<<< HEAD
-  m_LocalPosition: {x: 0, y: 1.013, z: -3.624}
-=======
   m_LocalPosition: {x: 0, y: 1.013, z: -3.717}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9093637832928300453}
@@ -11675,10 +11616,7 @@ Transform:
   - {fileID: 9093637832092041300}
   - {fileID: 3801277928973277786}
   - {fileID: 2539177811534513434}
-<<<<<<< HEAD
-=======
   - {fileID: 1204554511182231320}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11724,16 +11662,6 @@ MonoBehaviour:
       Weight: 1000
       Distance: 0.2
   carLights:
-<<<<<<< HEAD
-    brakeLights: []
-    reverseLights: []
-  carSounds:
-    IdleEngine: {fileID: 1989609239308780824}
-    LowEngine: {fileID: 1989609239308780824}
-    HighEngine: {fileID: 1989609239308780824}
-    nitro: {fileID: 1989609239308780824}
-    switchGear: {fileID: 1989609239308780824}
-=======
     brakeLights:
     - {fileID: 9093637831779650864}
     - {fileID: 9093637832199795811}
@@ -11746,7 +11674,6 @@ MonoBehaviour:
     HighEngine: {fileID: 6588967301650639482}
     nitro: {fileID: 2879408899690387558}
     switchGear: {fileID: 7178884124821342630}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     brakeAudioMixer: {fileID: 24300001, guid: 64f17d31919962f4280cddd6045ce5b4, type: 2}
   carParticles:
     brakeParticleMaterial: {fileID: 2100000, guid: 6bd023abcb243af48aed3a8b6deb33c5,
@@ -11828,11 +11755,7 @@ MonoBehaviour:
   YforceDamp: 0.3
   demolutionRange: 0.6
   impactDirManipulator: 0.75
-<<<<<<< HEAD
-  crashSound: {fileID: 1989609239308780824}
-=======
   crashSound: {fileID: 4177171015648609568}
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   optionalMeshList:
   - {fileID: 9100516058800388641}
 --- !u!114 &9093637833248779012

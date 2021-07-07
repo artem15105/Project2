@@ -67,10 +67,7 @@
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIPath.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\RunButton.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\GizmoObject.cs" />
-<<<<<<< HEAD
-=======
     <Compile Include="Assets\Script\Game\DynamicResolution.cs" />
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     <Compile Include="Assets\Script\Menu\PurchaseButton.cs" />
     <Compile Include="Assets\Script\Game\carEngine.cs" />
     <Compile Include="Assets\Script\Menu\Rotate.cs" />
@@ -79,7 +76,9 @@
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\GameUI.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\MiniMap.cs" />
     <Compile Include="Assets\Script\Menu\InfoCar.cs" />
+    <Compile Include="Assets\Script\SelectMap\ControllerMap.cs" />
     <Compile Include="Assets\Script\Game\Camera.cs" />
+    <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\MobileControl.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\PlayerPrefsX.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\OpenURL.cs" />
@@ -88,15 +87,6 @@
     <Compile Include="Assets\Script\Extreme Drift\Other\Skidmarks\Skidmarks Essentials\Skidmarks.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\VehicleCamera.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIControl.cs" />
-<<<<<<< HEAD
-    <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\NewBehaviourScript.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Specular_Normal.shader" />
-    <None Include="Assets\Script\Extreme Drift\Models\TrackObjects\Object1\Textures\TextShader.shader" />
-    <None Include="Assets\Script\Extreme Drift\Other\ProjectorShadow\Sources\Shaders\ProjectorLight.shader" />
-=======
-    <Compile Include="Assets\Script\SelectMap\ControllerMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Specular_Normal.shader" />
@@ -104,12 +94,12 @@
     <None Include="Assets\Script\Extreme Drift\Models\TrackObjects\Object1\Textures\TextShader.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\ProjectorShadow\Sources\Shaders\ProjectorLight.shader" />
     <None Include="Assets\Sound\Car Engine Sound - Rotary x8 Free\Demo_Audio\ReadMe.txt" />
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
     <None Include="Assets\Script\Extreme Drift\Other\ProjectorShadow\Sources\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Alpha-VertexLit-DoubleSided.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Other\ReflectionBlurFresnel.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Terrain\Fresnel\4Splat_Unity5_Fresnel.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Diffuse.shader" />
+    <None Include="Assets\test.txt" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Lighting\Flare_Color.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Mobile_Specular_CubeMap_Color.shader" />
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Mobile\Mobile_Detail.shader" />

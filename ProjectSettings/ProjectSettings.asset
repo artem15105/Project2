@@ -8,11 +8,7 @@ PlayerSettings:
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
-<<<<<<< HEAD
-  defaultScreenOrientation: 4
-=======
   defaultScreenOrientation: 2
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -149,12 +145,8 @@ PlayerSettings:
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-<<<<<<< HEAD
-  applicationIdentifier: {}
-=======
   applicationIdentifier:
     Android: com.DefaultCompany.DriftRace
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -368,11 +360,7 @@ PlayerSettings:
     m_DynamicBatching: 0
   - m_BuildTarget: Android
     m_StaticBatching: 1
-<<<<<<< HEAD
-    m_DynamicBatching: 0
-=======
     m_DynamicBatching: 1
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   - m_BuildTarget: iPhone
     m_StaticBatching: 1
     m_DynamicBatching: 0
@@ -403,11 +391,7 @@ PlayerSettings:
   - m_BuildTarget: LuminSupport
     m_GraphicsJobs: 0
   - m_BuildTarget: AndroidPlayer
-<<<<<<< HEAD
-    m_GraphicsJobs: 0
-=======
     m_GraphicsJobs: 1
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   - m_BuildTarget: WebGLSupport
     m_GraphicsJobs: 0
   m_BuildTargetGraphicsJobMode:
@@ -444,11 +428,7 @@ PlayerSettings:
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
-<<<<<<< HEAD
-    m_EncodingQuality: 1
-=======
     m_EncodingQuality: 0
->>>>>>> 8343c9f9847b84566029a52759ef51e61b44f8ac
   - m_BuildTarget: iPhone
     m_EncodingQuality: 1
   - m_BuildTarget: tvOS

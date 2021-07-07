@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6801754229020418478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6801754229020418476}
+  - component: {fileID: 6801754229020418479}
+  m_Layer: 0
+  m_Name: Game UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6801754229020418476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6801754229020418478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.24, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6801754229439191093}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6801754229020418479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6801754229020418478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a76ee534bdd132240bb049a2d81f4f26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panels:
+    gameStart:
+      root: {fileID: 0}
+      startTimeUI: {fileID: 0}
+      loading: {fileID: 0}
+      loadingBar: {fileID: 0}
+      FadeBackGround: {fileID: 0}
+    gamePlay:
+      root: {fileID: 0}
+      buttonsUI: {fileID: 0}
+      accelUI: {fileID: 0}
+      wrongWay: {fileID: 0}
+      driftWheel: {fileID: 0}
+      brakeWarning: {fileID: 0}
+      currentTime: {fileID: 0}
+      bestTime: {fileID: 0}
+      driftCoins: {fileID: 0}
+      driftText: {fileID: 0}
+      driftXText: {fileID: 0}
+      penaltyText: {fileID: 0}
+    gamePuased:
+      root: {fileID: 0}
+      audioToggle: {fileID: 0}
+      musicToggle: {fileID: 0}
+    gameFinish:
+      root: {fileID: 0}
+      yourTime: {fileID: 0}
+      penaltyTime: {fileID: 0}
+      bestTime: {fileID: 0}
+      racePrize: {fileID: 0}
+      driftPrize: {fileID: 0}
+      totalPrize: {fileID: 0}
+      stars:
+        Star1Time: 130
+        Star2Time: 100
+        Star3Time: 90
+        Star1: {fileID: 0}
+        Star2: {fileID: 0}
+        Star3: {fileID: 0}
+  carUI:
+    tachometerNeedle: {fileID: 0}
+    barShiftGUI: {fileID: 0}
+    speedText: {fileID: 0}
+    GearText: {fileID: 0}
+  sounds:
+    music: {fileID: 0}
+    countDown: {fileID: 8300000, guid: 84b801069e08f7f47add3d743fb2ff5a, type: 3}
+    countStart: {fileID: 8300000, guid: 8d4911edb8e4a1349a7b35d3e9f98c4c, type: 3}
+  totalDriftCoins: 0
+  earnCoins: 0
+  totalEarnCoins: 0
+  canDrift: 0
+  driftAmount: 0
+  penaltyTime: 0
+  gameStarted: 0
+  gamePaused: 0
+  gameRest: 0
+  gameFinished: 0
+  racePrize: 0
+  totalPrize: 0
+  carPenalty: 0
+  carWrongWay: 0
+  carBrakeWarning: 0
+--- !u!1 &6801754229439191095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6801754229439191093}
+  - component: {fileID: 6801754229439191092}
+  m_Layer: 0
+  m_Name: Mobile Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6801754229439191093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6801754229439191095}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6801754229020418476}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6801754229439191092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6801754229439191095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c11c76bc8cb52b4ebb03862e88d35a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

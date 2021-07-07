@@ -78,7 +78,6 @@
     <Compile Include="Assets\Script\Menu\InfoCar.cs" />
     <Compile Include="Assets\Script\SelectMap\ControllerMap.cs" />
     <Compile Include="Assets\Script\Game\Camera.cs" />
-    <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\MobileControl.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\PlayerPrefsX.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\OpenURL.cs" />

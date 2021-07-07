@@ -415,11 +415,12 @@ public class VehicleControl : MonoBehaviour
         }
 
 
-#if UNITY_ANDROID||UNITY_IOS
+/*#if UNITY_ANDROID||UNITY_IOS
 
         if (PlayerPrefs.GetInt("VibrationActive") == 0)
             Handheld.Vibrate();
 #endif
+*/
     }
 
 

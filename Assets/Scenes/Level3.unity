@@ -6881,6 +6881,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 15661058}
+    - target: {fileID: 3719130579968286453, guid: 521e4d3aa7659c04c8b8af6857d63553,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -298
+      objectReference: {fileID: 0}
     - target: {fileID: 3719130580470960688, guid: 521e4d3aa7659c04c8b8af6857d63553,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7416,7 +7421,24 @@ PrefabInstance:
       objectReference: {fileID: 881911951}
     - target: {fileID: 7511239254159455583, guid: a5bb5cdac4f0af64b9634b3dd2501f71,
         type: 3}
+      propertyPath: CarsPrefabs.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7511239254159455583, guid: a5bb5cdac4f0af64b9634b3dd2501f71,
+        type: 3}
       propertyPath: CarsPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 9094451122370839745, guid: 0ff655ffa54959044889f9bdaf0c3112,
+        type: 3}
+    - target: {fileID: 7511239254159455583, guid: a5bb5cdac4f0af64b9634b3dd2501f71,
+        type: 3}
+      propertyPath: CarsPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1800864924350528945, guid: 94b1dbfd36a2b8042bd0a57b384f27c8,
+        type: 3}
+    - target: {fileID: 7511239254159455583, guid: a5bb5cdac4f0af64b9634b3dd2501f71,
+        type: 3}
+      propertyPath: CarsPrefabs.Array.data[2]
       value: 
       objectReference: {fileID: 7825496362857232727, guid: f8cacf4fffdf56e4692e49c14062c144,
         type: 3}

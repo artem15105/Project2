@@ -33,10 +33,14 @@ public class InfoCar : MonoBehaviour
        
         arrCars = arrCars2;
 
-        for(int i2 = 1; i2 <= arrCars.Count; i2++)
+        if(ShopCar.Count <= 2)
         {
-            ShopCar.Add("Car" + i2, false);
+            for (int i2 = 1; i2 <= arrCars.Count; i2++)
+            {
+                ShopCar.Add("Car" + i2, false);
+            }
         }
+        
 
 
                

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIPath.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\GUI\RunButton.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\GizmoObject.cs" />
+    <Compile Include="Assets\Script\Game\DynamicResolution.cs" />
     <Compile Include="Assets\Script\Menu\PurchaseButton.cs" />
     <Compile Include="Assets\Script\Game\carEngine.cs" />
     <Compile Include="Assets\Script\Menu\Rotate.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\Script\Extreme Drift\Other\Skidmarks\Skidmarks Essentials\Skidmarks.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\Vehicle\VehicleCamera.cs" />
     <Compile Include="Assets\Script\Extreme Drift\Scripts\AIController\AIControl.cs" />
+    <Compile Include="Assets\Script\SelectMap\ControllerMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Script\Extreme Drift\Other\Lighting Effects\Shaders\Legacy\Legacy_Specular_Normal.shader" />
